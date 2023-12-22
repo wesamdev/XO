@@ -57,6 +57,7 @@ button{
     cursor: pointer;
     width: 70px;
     height: 70px;
+    transition: all 0.3s;
 }
 
 .sqaure:hover{
