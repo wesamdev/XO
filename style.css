@@ -1,0 +1,101 @@
+#header{
+    background-color: #c6c6c636;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.3);
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: #1b1b1b;
+    margin: 0px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+button{
+    font-family: 'Shantell Sans', cursive;
+}
+
+
+#all-content{
+    height: 90vh;
+    margin: 0px;
+}
+
+#main-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-container{
+    background-color: #F0DB4f;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    border: #4d4d4d solid 10px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.9);
+    aspect-ratio: 1;
+    height: 90%;
+}
+.sqaure{
+    padding: 40px;
+    border: #1b1b1b solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+}
+
+.sqaure:hover{
+    background-color: #c6b439;
+}
+
+
+.square-content{
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    padding: 0px;
+}
+
+#header-and-board-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    transition: all 0.3s;
+
+}
+
+
+.action-btn{
+    font-size: 30px;
+    padding: 7px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    transition: all 0.3s;
+    background: rgb(84 60 172);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.action-btn:hover {
+    box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.5);
+    background: rgb(137, 105, 240);
+}

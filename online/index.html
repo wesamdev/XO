@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div id="all-content">
+
+        <div id="main-content">
+
+            <div id="header-and-board-wrapper">
+
+            <!-- HEADER -->
+            <div id="header">
+                <h2 id="instruction">
+                    X turn
+                </h2>
+            </div>
+            <!--// HEADER //-->
+
+            <!-- GAME BOARD -->
+            <div class="grid-container">
+                <div class="sqaure"  value="1" style="border-top: none; border-left:none;">
+                    <h3 class="sqaure-content">
+                        
+                    </h3>
+                </div>
+                <div class="sqaure" value="2" style="border-top: none;">
+                    <h3 class="sqaure-content">
+                        
+                    </h3>
+                </div>
+                <div class="sqaure" value="3" style="border-top: none; border-right:none;">
+                    <h3 class="sqaure-content">
+                        
+                    </h3>
+                </div>
+            
+
+            <!-- row 2 -->
+            
+            <div class="sqaure" value="4" style="border-left:none;">
+                <h3 class="sqaure-content">
+                    
+                </h3>
+            </div>
+            <div class="sqaure"value="5" >
+                <h3 class="sqaure-content">
+                    
+                </h3>
+            </div>
+            <div class="sqaure" value="6" style="border-right:none;">
+                <h3 class="sqaure-content">
+                    
+                </h3>
+            </div>
+
+            <!--  row 3 -->
+
+            <div class="sqaure" value="7" style="border-bottom: none; border-left:none;">
+                <h3 class="sqaure-content">
+                    
+                </h3>
+            </div>
+            <div class="sqaure" value="8" style="border-bottom: none;">
+                <h3 class="sqaure-content">
+                    
+                </h3>
+            </div>
+            <div class="sqaure" value="9" style="border-bottom: none; border-right:none;">
+                <h3 class="sqaure-content">
+                    
+                </h3>
+            </div>
+        </div>
+
+            <!--// GAME BOARD //-->
+
+
+
+            <!-- footer -->
+            <div id="footer">
+                <button  class="action-btn" id="reset-btn">
+                    reset
+                </button>
+            </div>
+            <!-- // footer // -->
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+
+</body>
+<script src="game.js"></script>
+
+</html>
