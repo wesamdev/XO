@@ -1,2 +1,2 @@
 # XO
- XO gmae - JS - html -CSS
+ XO game - JS - html -CSS
